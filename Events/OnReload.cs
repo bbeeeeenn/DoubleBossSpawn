@@ -20,7 +20,7 @@ public class OnReload : Event
 
     private void EventMethod(ReloadEventArgs e)
     {
-        // TSPlayer player = e.Player;
+        TSPlayer player = e.Player;
         // MessageResponse response = PluginSettings.Load();
         // player.SendMessage(response.Text, response.Color);
     }
