@@ -10,7 +10,6 @@ public class EventManager
     {
         // Events
         // new OnReload(),
-        new OnNpcSpawn(),
     };
 
     public static void RegisterAll(TerrariaPlugin plugin)

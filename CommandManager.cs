@@ -8,7 +8,8 @@ public class CommandManager
     public static readonly List<Command> Commands = new()
     {
         // Commands
-        new DummyCommand(),
+        // new DummyCommand(),
+        new SeeNpcList(),
     };
 
     public static void RegisterAll()

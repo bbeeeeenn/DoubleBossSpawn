@@ -30,5 +30,8 @@ public class OnGetData : Models.Event
         _ = reader.ReadSingle();
         _ = reader.ReadSingle();
         var target = reader.ReadUInt16();
+        var npcFlag1 = reader.ReadByte();
+        var npcFlag2 = reader.ReadByte();
+        var AI = reader.ReadSingle();
     }
 }
